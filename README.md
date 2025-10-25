@@ -33,21 +33,12 @@ cd employee-directory-backend
 npm install
 ```
 
-### 3. Configure environment variables
-
-Create a .env file:
-
-```bash
-MONGO_URI= <your mongo URI >
-PORT=4000
-```
-
-### 4. Seed initial data
+### 3. Seed initial data
 ```bash
 node seed.js
 ```
 
-### 5. Run the server
+### 4. Run the server
 ```bash
 node server.js
 ```
